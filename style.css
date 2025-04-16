@@ -7,7 +7,7 @@ body {
     color: #333;
   }
   header {
-    background-color: hsl(337, 100%, 69%);
+    background-color: hsl(7, 89%, 39%);
     color: white;
     padding: 2rem;
     text-align: center;
@@ -29,26 +29,35 @@ body {
   }
   .hero {
     position: relative;
-    background: linear-gradient(-45deg, #95be43, #0ef883, #24f109, #04b347);
+    background: linear-gradient(135deg, #6ddf6d, #3dcf90, #1abc9c, #16a085); /* Novo gradiente */
     background-size: 400% 400%;
     animation: backgroundMove 10s ease infinite;
     color: white;
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 8rem 2rem; /* Mantendo a altura do cabeçalho */
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
   
   .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
   }
   
   .hero p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin: 0;
   }
+  
+  .hero .wave {
+    position: absolute;
+    bottom: -14; /* Aumente o valor negativo para puxar mais para baixo */
+    left: 0;
+    width: 100%;
+    height: 150px; /* Tamanho da onda */
+  }
+  
   
   @keyframes backgroundMove {
     0% {

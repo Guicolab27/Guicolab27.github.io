@@ -3,12 +3,12 @@ body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f5f5f5;
-    color: #333;
+    background: #ffffff;
+    color: #444444;
   }
   header {
     background-color: hsl(7, 89%, 39%);
-    color: white;
+    color: rgb(1, 196, 82);
     padding: 2rem;
     text-align: center;
   }
@@ -16,10 +16,10 @@ body {
     padding: 2rem;
   }
   .intro {
-    background: white;
+    background: rgb(214, 214, 214);
     padding: 1.5rem;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
   }
   footer {
     text-align: center;
@@ -32,12 +32,12 @@ body {
     background: linear-gradient(135deg, #6ddf6d, #3dcf90, #1abc9c, #16a085); /* Novo gradiente */
     background-size: 400% 400%;
     animation: backgroundMove 10s ease infinite;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 8rem 2rem; /* Mantendo a altura do cabeçalho */
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(64, 83, 145, 0.2);
   }
   
   .hero h1 {

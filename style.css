@@ -27,3 +27,38 @@ body {
     background: #eee;
     margin-top: 2rem;
   }
+  .hero {
+    position: relative;
+    background: linear-gradient(-45deg, #6600ff, #6c63ff, #00bfff, #6600ff);
+    background-size: 400% 400%;
+    animation: backgroundMove 10s ease infinite;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  
+  @keyframes backgroundMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

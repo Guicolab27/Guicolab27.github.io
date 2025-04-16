@@ -7,7 +7,7 @@ body {
     color: #333;
   }
   header {
-    background-color: #95be43(243, 100%, 69%);
+    background-color: hsl(243, 100%, 69%);
     color: white;
     padding: 2rem;
     text-align: center;
@@ -29,7 +29,7 @@ body {
   }
   .hero {
     position: relative;
-    background: linear-gradient(-45deg, #6600ff, #6c63ff, #00bfff, #6600ff);
+    background: linear-gradient(-45deg, #95be43, #6c63ff, #00bfff, #6600ff);
     background-size: 400% 400%;
     animation: backgroundMove 10s ease infinite;
     color: white;
